@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17158ED6284BC1F500C8A860 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17158ED5284BC1F500C8A860 /* ItemViewController.swift */; };
+		1715E1A2284BD494005B84BA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1715E1A1284BD494005B84BA /* Item.swift */; };
+		1715E1A4284BD4A2005B84BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1715E1A3284BD4A2005B84BA /* Category.swift */; };
+		173B3553284B6E7200B78D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B3552284B6E7200B78D96 /* AppDelegate.swift */; };
+		173B3555284B6E7200B78D96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B3554284B6E7200B78D96 /* SceneDelegate.swift */; };
+		173B3557284B6E7200B78D96 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B3556284B6E7200B78D96 /* CategoryViewController.swift */; };
+		173B355A284B6E7200B78D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B3558284B6E7200B78D96 /* Main.storyboard */; };
+		173B355C284B6E7400B78D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173B355B284B6E7400B78D96 /* Assets.xcassets */; };
+		173B355F284B6E7400B78D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B355D284B6E7400B78D96 /* LaunchScreen.storyboard */; };
+		61DFEEA771EEBB055E78FBBE /* Pods_App3x_10_6_Todoey_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BF0452DE543669060E31DF /* Pods_App3x_10_6_Todoey_Realm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17158ED5284BC1F500C8A860 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		1715E1A1284BD494005B84BA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1715E1A3284BD4A2005B84BA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		173B354F284B6E7200B78D96 /* App3x 10.6 Todoey Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App3x 10.6 Todoey Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173B3552284B6E7200B78D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		173B3554284B6E7200B78D96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		173B3556284B6E7200B78D96 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		173B3559284B6E7200B78D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173B355B284B6E7400B78D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		173B355E284B6E7400B78D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173B3560284B6E7400B78D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEF2385A98C4EF2E9D717AC /* Pods-App3x 10.6 Todoey Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App3x 10.6 Todoey Realm.debug.xcconfig"; path = "Target Support Files/Pods-App3x 10.6 Todoey Realm/Pods-App3x 10.6 Todoey Realm.debug.xcconfig"; sourceTree = "<group>"; };
+		C8BF0452DE543669060E31DF /* Pods_App3x_10_6_Todoey_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App3x_10_6_Todoey_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AE828329F5364700CD1991 /* Pods-App3x 10.6 Todoey Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App3x 10.6 Todoey Realm.release.xcconfig"; path = "Target Support Files/Pods-App3x 10.6 Todoey Realm/Pods-App3x 10.6 Todoey Realm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173B354C284B6E7200B78D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DFEEA771EEBB055E78FBBE /* Pods_App3x_10_6_Todoey_Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173B3546284B6E7200B78D96 = {
+			isa = PBXGroup;
+			children = (
+				173B3551284B6E7200B78D96 /* App3x 10.6 Todoey Realm */,
+				173B3550284B6E7200B78D96 /* Products */,
+				204A4CF014C8D2AD7E1D8030 /* Pods */,
+				A98FAA7551C42DB79B10BC6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		173B3550284B6E7200B78D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173B354F284B6E7200B78D96 /* App3x 10.6 Todoey Realm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173B3551284B6E7200B78D96 /* App3x 10.6 Todoey Realm */ = {
+			isa = PBXGroup;
+			children = (
+				173B3552284B6E7200B78D96 /* AppDelegate.swift */,
+				173B3554284B6E7200B78D96 /* SceneDelegate.swift */,
+				173B3568284B794900B78D96 /* Model */,
+				173B3569284B794F00B78D96 /* Controller */,
+				173B356A284B795600B78D96 /* View */,
+				173B355B284B6E7400B78D96 /* Assets.xcassets */,
+				173B355D284B6E7400B78D96 /* LaunchScreen.storyboard */,
+				173B3560284B6E7400B78D96 /* Info.plist */,
+			);
+			path = "App3x 10.6 Todoey Realm";
+			sourceTree = "<group>";
+		};
+		173B3568284B794900B78D96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1715E1A3284BD4A2005B84BA /* Category.swift */,
+				1715E1A1284BD494005B84BA /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		173B3569284B794F00B78D96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				173B3556284B6E7200B78D96 /* CategoryViewController.swift */,
+				17158ED5284BC1F500C8A860 /* ItemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		173B356A284B795600B78D96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				173B3558284B6E7200B78D96 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		204A4CF014C8D2AD7E1D8030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF2385A98C4EF2E9D717AC /* Pods-App3x 10.6 Todoey Realm.debug.xcconfig */,
+				D8AE828329F5364700CD1991 /* Pods-App3x 10.6 Todoey Realm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A98FAA7551C42DB79B10BC6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8BF0452DE543669060E31DF /* Pods_App3x_10_6_Todoey_Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173B354E284B6E7200B78D96 /* App3x 10.6 Todoey Realm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173B3563284B6E7400B78D96 /* Build configuration list for PBXNativeTarget "App3x 10.6 Todoey Realm" */;
+			buildPhases = (
+				98EC12752A66662F8C54E4D8 /* [CP] Check Pods Manifest.lock */,
+				173B354B284B6E7200B78D96 /* Sources */,
+				173B354C284B6E7200B78D96 /* Frameworks */,
+				173B354D284B6E7200B78D96 /* Resources */,
+				0ACA2237A2603B5042032DB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App3x 10.6 Todoey Realm";
+			productName = "App3x 10.1 Todoey";
+			productReference = 173B354F284B6E7200B78D96 /* App3x 10.6 Todoey Realm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173B3547284B6E7200B78D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					173B354E284B6E7200B78D96 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 173B354A284B6E7200B78D96 /* Build configuration list for PBXProject "App3x 10.6 Todoey Realm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173B3546284B6E7200B78D96;
+			productRefGroup = 173B3550284B6E7200B78D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173B354E284B6E7200B78D96 /* App3x 10.6 Todoey Realm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173B354D284B6E7200B78D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173B355F284B6E7400B78D96 /* LaunchScreen.storyboard in Resources */,
+				173B355C284B6E7400B78D96 /* Assets.xcassets in Resources */,
+				173B355A284B6E7200B78D96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACA2237A2603B5042032DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App3x 10.6 Todoey Realm/Pods-App3x 10.6 Todoey Realm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App3x 10.6 Todoey Realm/Pods-App3x 10.6 Todoey Realm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App3x 10.6 Todoey Realm/Pods-App3x 10.6 Todoey Realm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98EC12752A66662F8C54E4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App3x 10.6 Todoey Realm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173B354B284B6E7200B78D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173B3557284B6E7200B78D96 /* CategoryViewController.swift in Sources */,
+				17158ED6284BC1F500C8A860 /* ItemViewController.swift in Sources */,
+				173B3553284B6E7200B78D96 /* AppDelegate.swift in Sources */,
+				1715E1A2284BD494005B84BA /* Item.swift in Sources */,
+				173B3555284B6E7200B78D96 /* SceneDelegate.swift in Sources */,
+				1715E1A4284BD4A2005B84BA /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		173B3558284B6E7200B78D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173B3559284B6E7200B78D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		173B355D284B6E7400B78D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173B355E284B6E7400B78D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173B3561284B6E7400B78D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		173B3562284B6E7400B78D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173B3564284B6E7400B78D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEF2385A98C4EF2E9D717AC /* Pods-App3x 10.6 Todoey Realm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App3x 10.6 Todoey Realm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marwan.App3x-10-1-Todoey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		173B3565284B6E7400B78D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AE828329F5364700CD1991 /* Pods-App3x 10.6 Todoey Realm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App3x 10.6 Todoey Realm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marwan.App3x-10-1-Todoey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173B354A284B6E7200B78D96 /* Build configuration list for PBXProject "App3x 10.6 Todoey Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B3561284B6E7400B78D96 /* Debug */,
+				173B3562284B6E7400B78D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173B3563284B6E7400B78D96 /* Build configuration list for PBXNativeTarget "App3x 10.6 Todoey Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B3564284B6E7400B78D96 /* Debug */,
+				173B3565284B6E7400B78D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173B3547284B6E7200B78D96 /* Project object */;
+}
